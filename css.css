@@ -1,0 +1,32 @@
+/**
+Autor: Ana Camila Nambo Delhumeau
+Fecha: 05/02/2024
+Lenguaje: HTML
+Diseño web II
+**/
+body {
+    background-color: #f8c8dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 90vw;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    max-height: 1600px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
